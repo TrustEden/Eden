@@ -1,0 +1,32 @@
+name: transcription_app
+description: Audio Transcription and Diarization Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # File handling
+  file_picker: ^8.0.0
+  path_provider: ^2.1.0
+
+  # Rich text editor
+  flutter_quill: ^10.0.0
+
+  # Process execution
+  process_run: ^1.1.0
+
+  # Drag and drop support
+  desktop_drop: ^0.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
