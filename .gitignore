@@ -4,14 +4,14 @@ __pycache__/
 *$py.class
 *.so
 .Python
-build/
+backend/build/
+backend/lib/
+backend/lib64/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
-lib/
-lib64/
 parts/
 sdist/
 var/
@@ -22,6 +22,7 @@ wheels/
 venv/
 ENV/
 env/
+transcription_env/
 
 # Flutter/Dart
 .dart_tool/
@@ -30,7 +31,7 @@ env/
 .packages
 .pub-cache/
 .pub/
-build/
+flutter_app/build/
 flutter_*.log
 *.iml
 *.ipr
@@ -59,4 +60,5 @@ models/
 
 # Output files
 transcription_output*.json
-*.txt
+transcript.txt
+output.txt
